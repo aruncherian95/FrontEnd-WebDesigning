@@ -1,0 +1,42 @@
+button{
+    background: green;
+    color: white;
+}
+
+#para1{
+    color: violet;
+}
+#para2{
+    color: yellow;
+}
+
+.content{
+    color: lightblue;
+    background: lightcoral;
+}
+
+.outer{
+    width: 300px;
+    height:200px;
+    background: lightgreen;
+    margin-left:50px ;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    border:6px solid;
+    border-color: red;
+
+}
+.white{
+    color:hotpink;
+    margin-top: 10px;
+      
+}
+
+.inner{
+    width: 200px;
+    height:100px;
+    background:yellow;
+    margin-left:50px ;
+    margin-top: 20px;
+}
