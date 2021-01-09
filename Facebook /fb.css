@@ -50,6 +50,18 @@
 .sub-btn:hover{
     background: red;
 }
+
+.up-btn{
+    background: green;
+    color:white;
+    height: 40px;
+    width:170px;
+    border-color: green;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
  
 .left-section{
     width: 50%;
@@ -60,6 +72,12 @@
 .right-section{
     width: 44%;
     float: left;
+}
+.gender{
+    margin-top: 10px;
+}
+.g_select{
+    margin-top: 10px;
 }
 
 .main-body{
@@ -120,8 +138,8 @@
 .dob{
     width:100%;
     margin-top: 5px;
-   
-}
+    
+   }
 
 
 

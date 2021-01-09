@@ -44,29 +44,29 @@
                 <p class="p">It's quick and easy.</p>
 
                 <div class="forms">
-                <form action="">
+                <form class="signup-form" action="hello2.html" id="signup-form">
                     <table>
                         
                             <tr>
-                                <td><input class="first" type="text" placeholder="Firstname"></td>
-                                <td><input class="second"type="text" placeholder="Surname"></td>
+                                <td><input name="fname" class="first" type="text" placeholder="Firstname"></td>
+                                <td><input name="sname" class="second"type="text" placeholder="Surname"></td>
                             </tr>
                             <tr>
-                                <td><input class="mail" type="text" placeholder="Mobile number or email address"></td></td>
+                                <td><input name="emailAddress" class="mail" type="text" placeholder="Mobile number or email address"></td></td>
                                 
                             </tr>
                             <tr>
-                                <td><input class="mail" type="text" placeholder="New Password"></td></td><br>
+                                <td><input name="password" class="mail" type="text" placeholder="New Password"></td></td><br>
                             </tr>
                          </div>        
                     </table>
                     <div class="dob">
                         <label for="id_select"> Birthday </label><br><br>
                         <select name="" id="">
-                            <option value="1">Day</option>
-                            <option value="2">1</option>
-                            <option value="3">2</option>
-                            <option value="4">3</option>
+                            <option value="">Day</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
                         </select>
                         <select name="" id="">
                             <option value="">Month</option>
@@ -80,12 +80,37 @@
                             <option value="">1996</option>
                             <option value="">2000</option>
                         </select>
+                        <div class="gender">
+                            <label for="g_select"> Gender </label><br>
+                            <table>
+                                <tr>
+                                   <td> <input type="radio" id="male" name="gender" value="male">
+                                    <label for="male">Male</label><br></td>
+                                    <td> <input type="radio" id="female" name="gender" value="female">
+                                        <label for="female">Female</label><br></td>
+                                    <td> <input type="radio" id="other" name="gender" value="other">
+                                        <label for="other">Custom</label></td>
+                                </tr>
+
+                                
+                            </table>
+                            
+                        </form>
+
+                        </div>
+                        <div class="signUp">
+                            <input class="up-btn" type="button" value="Sign Up">
+                        
+                        </div>
                      
                 </div>
 
         </div>
 
     </div>
-    
+  
+   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script> 
+   <script src="script.js"></script>
 </body>
 </html>
